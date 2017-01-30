@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "A portfolio project for Jeremy Hadfield.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vintners/Portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "jeremy"
+  ],
+  "author": "Jeremy Hadfield",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vintners/Portfolio/issues"
+  },
+  "homepage": "https://github.com/vintners/Portfolio#readme"
+}

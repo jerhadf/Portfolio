@@ -3,28 +3,60 @@
     <head>
         <title></title>
         <meta charset="UTF-8">
-        <!--Stylesheet-->
+        <!--stylesheet-->
         <link rel="stylesheet" href="stylesheet.css"/> 
-        <!--BootstrapCDN – Material Icons – Fonts -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!--Bootstrap – Material Icons – Fonts -->
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">-->
+
+        <!--CDN version of Bootstrap-->
+        <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">--> 
     </head>
     <body>
-    
+        <!--navigation bar-->
+        <nav class="navbar navbar-default"> 
+            <div class="container-fluid"> 
+                <a class="navbar-brand"> <i class="glyphicon glyphicon-bullhorn"></i> Vue Events Bulletin Board</a> 
+            </div>
+        </nav>
 
-    
+        <!-- main body of our application -->
+        <div class="container" id="events">
 
+        <!-- add an event form -->
+            <div class="col-sm-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3>Add an Event</h3>
+                    </div>
+                    <div class="panel-body">
 
-        <!-- jQuery – jQuery UI – Javascript -->
-        <script 
+                    </div>
+
+                </div>
+            </div>
+
+             <!-- show the events -->
+            <div class="col-sm-6">
+            <div class="list-group">
+        </div> 
+
+        <h1> Jeremy Hadfield </h1> 
+
+        <!-- jQuery – jQuery UI-->
+        <!--<script 
         src="https://code.jquery.com/jquery-3.1.1.min.js" 
         integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
         crossorigin="anonymous"></script>
         <script
         src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
         integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
-        crossorigin="anonymous"></script>
-        <script src="main.js"></script> 
+        crossorigin="anonymous"></script>-->
+
+        <!--Vue.js – Javascript-->
+        <script src="node_modules/vue/dist/vue.js"></script>
+        <script src="node_modules/vue-resource/dist/vue-resource.js"></script>
+        <script src="app.js"></script>
     </body>
 </html>
